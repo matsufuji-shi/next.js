@@ -31,7 +31,7 @@ export default function Form(){
         />
         <input
           type="text"
-          placeholder="年齢"
+          placeholder="値段"
           value={price}
           onChange={(e) => setPrice(e.target.value)}
         />
